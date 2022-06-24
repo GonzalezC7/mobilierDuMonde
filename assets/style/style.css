@@ -1,0 +1,97 @@
+/* Style general */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-size: 15px;
+  background-color: #ebebeb;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #b63319;
+  padding: 2rem 4rem;
+}
+
+header .main-title {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container {
+  background-color: #f9f9f9;
+  margin: 2rem 4rem;
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  border-left: 5px solid #b63319;
+  box-shadow: 2px 3px 3px #b3b3b3;
+}
+
+.container .title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #b63319;
+}
+
+.container .title.left {
+  text-align: left;
+}
+
+.container .title.right {
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row > * {
+  padding: 1rem;
+}
+
+footer {
+  border-left: 5px #b63319 solid;
+  border-right: 5px #b63319 solid;
+  border-radius: 5px;
+  height: 80px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.box-box {
+  background-color: blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-img {
+  background-color: #b63319;
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.picture-retouche {
+  height: 200px;
+  width: 400px;
+}
+
+.titre {
+  text-align: center;
+  flex-direction: row;
+}
+
+.prix {
+  display: flex;
+  flex-direction: column;
+}
